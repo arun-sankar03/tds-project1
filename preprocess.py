@@ -36,7 +36,7 @@ CHUNK_SIZE = 1000
 CHUNK_OVERLAP = 200
 
 # Get API key from environment variable
-API_KEY = os.getenv("API_KEY")
+API_KEY = os.getenv("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")
 if not API_KEY:
     logger.error("API_KEY environment variable not set. Please set it before running.")
 
